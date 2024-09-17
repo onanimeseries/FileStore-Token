@@ -1,0 +1,200 @@
+[12-Aug-24 01:39:05 - WARNING] - pyrogram.connection.connection - Unable to connect due to network issues: Connection timed out
+[12-Aug-24 01:39:16 - WARNING] - pyrogram.connection.connection - Unable to connect due to network issues: Connection timed out
+[17-Aug-24 20:41:58 - WARNING] - pyrogram.connection.connection - Unable to connect due to network issues: Connection timed out
+[17-Aug-24 20:42:12 - WARNING] - pyrogram.connection.connection - Unable to connect due to network issues: Connection timed out
+[17-Aug-24 20:42:23 - WARNING] - pyrogram.connection.connection - Unable to connect due to network issues: Connection timed out
+[17-Aug-24 20:42:24 - WARNING] - pyrogram.connection.connection - Connection failed! Trying again...
+[17-Aug-24 20:42:35 - WARNING] - pyrogram.connection.connection - Unable to connect due to network issues: Connection timed out
+[17-Aug-24 20:42:46 - WARNING] - pyrogram.connection.connection - Unable to connect due to network issues: Connection timed out
+[17-Aug-24 20:42:57 - WARNING] - pyrogram.connection.connection - Unable to connect due to network issues: Connection timed out
+[17-Aug-24 20:42:58 - WARNING] - pyrogram.connection.connection - Connection failed! Trying again...
+[17-Aug-24 20:43:09 - WARNING] - pyrogram.connection.connection - Unable to connect due to network issues: Connection timed out
+[17-Aug-24 20:43:21 - WARNING] - pyrogram.connection.connection - Unable to connect due to network issues: Connection timed out
+[17-Aug-24 20:43:32 - WARNING] - pyrogram.connection.connection - Unable to connect due to network issues: Connection timed out
+[17-Aug-24 20:43:33 - WARNING] - pyrogram.connection.connection - Connection failed! Trying again...
+[17-Aug-24 20:43:44 - WARNING] - pyrogram.connection.connection - Unable to connect due to network issues: Connection timed out
+[17-Aug-24 20:44:04 - WARNING] - pyrogram.connection.connection - Unable to connect due to network issues: Connection timed out
+[17-Aug-24 20:45:16 - WARNING] - pyrogram.connection.connection - Unable to connect due to network issues: Connection timed out
+[17-Aug-24 20:45:27 - WARNING] - pyrogram.connection.connection - Unable to connect due to network issues: Connection timed out
+[17-Aug-24 20:45:38 - WARNING] - pyrogram.connection.connection - Unable to connect due to network issues: Connection timed out
+[17-Aug-24 20:45:39 - WARNING] - pyrogram.connection.connection - Connection failed! Trying again...
+[17-Sep-24 20:14:34 - WARNING] - bot - Telegram says: [400 CHANNEL_INVALID] - The channel parameter is invalid (caused by "channels.GetChannels")
+[17-Sep-24 20:14:34 - WARNING] - bot - Bot can't Export Invite link from Force Sub Channel!
+[17-Sep-24 20:14:34 - WARNING] - bot - Please Double check the FORCE_SUB_CHANNEL2 value and Make sure Bot is Admin in channel with Invite Users via Link Permission, Current Force Sub Channel Value: -1002090375801
+[17-Sep-24 20:14:34 - INFO] - bot - 
+Bot Stopped. https://t.me/OnAnimeseries_Support for support
+[17-Sep-24 20:15:56 - WARNING] - bot - Telegram says: [400 CHANNEL_INVALID] - The channel parameter is invalid (caused by "channels.GetChannels")
+[17-Sep-24 20:15:56 - WARNING] - bot - Bot can't Export Invite link from Force Sub Channel!
+[17-Sep-24 20:15:56 - WARNING] - bot - Please Double check the FORCE_SUB_CHANNEL2 value and Make sure Bot is Admin in channel with Invite Users via Link Permission, Current Force Sub Channel Value: -1002090375801
+[17-Sep-24 20:15:56 - INFO] - bot - 
+Bot Stopped. https://t.me/OnAnimeseries_Support for support
+[17-Sep-24 20:18:26 - WARNING] - bot - Telegram says: [400 CHANNEL_INVALID] - The channel parameter is invalid (caused by "channels.GetChannels")
+[17-Sep-24 20:18:26 - WARNING] - bot - Make Sure bot is Admin in DB Channel, and Double check the CHANNEL_ID Value, Current Value -1002001819513
+[17-Sep-24 20:18:26 - INFO] - bot - 
+Bot Stopped. Join https://t.me/ultroid_official for support
+[17-Sep-24 20:19:13 - ERROR] - pyrogram.dispatcher - 'Bot' object has no attribute 'username'
+Traceback (most recent call last):
+  File "C:\Users\Ikra\PycharmProjects\venv\lib\site-packages\pyrogram\dispatcher.py", line 242, in handler_worker
+    await self.loop.run_in_executor(
+  File "C:\Program Files\Python310\lib\concurrent\futures\thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Ikra\PycharmProjects\venv\lib\site-packages\pyrogram\sync.py", line 78, in async_to_sync_wrap
+    return asyncio.run_coroutine_threadsafe(coroutine, main_loop).result()
+  File "C:\Program Files\Python310\lib\concurrent\futures\_base.py", line 445, in result
+    return self.__get_result()
+  File "C:\Program Files\Python310\lib\concurrent\futures\_base.py", line 390, in __get_result
+    raise self._exception
+  File "C:\Users\Ikra\PycharmProjects\venv\lib\site-packages\pyromod\listen\message_handler.py", line 98, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "C:\Users\Ikra\PycharmProjects\file-sharing-token-bot-main\plugins\start.py", line 165, in start_command
+    link = await get_shortlink(SHORTLINK_URL, SHORTLINK_API,f'https://telegram.dog/{client.username}?start=verify_{token}')
+AttributeError: 'Bot' object has no attribute 'username'
+[17-Sep-24 20:19:14 - INFO] - bot - Bot Running..!
+
+Created by 
+https://t.me/ultroid_official
+[17-Sep-24 20:45:51 - INFO] - bot - Bot Running..!
+
+Created by 
+https://t.me/ultroid_official
+[17-Sep-24 20:46:54 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[17-Sep-24 20:46:54 - INFO] - bot - Bot stopped.
+[17-Sep-24 20:47:09 - INFO] - bot - Bot Running..!
+
+Created by 
+https://t.me/ultroid_official
+[17-Sep-24 20:47:09 - INFO] - bot - 
+
+
+          ___ ___  ___  ___ ___ _    _____  _____  ___ _____ ___ 
+         / __/ _ \|   \| __| __| |  |_ _\ \/ / _ )/ _ \_   _/ __|
+        | (_| (_) | |) | _|| _|| |__ | | >  <| _ \ (_) || | \__ \
+         \___\___/|___/|___|_| |____|___/_/\_\___/\___/ |_| |___/
+                                                                
+[17-Sep-24 20:51:54 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[17-Sep-24 21:19:35 - INFO] - bot - Bot Running..!
+
+Created by 
+https://t.me/ultroid_official
+[17-Sep-24 21:19:35 - INFO] - bot - 
+
+
+          ___ ___  ___  ___ ___ _    _____  _____  ___ _____ ___ 
+         / __/ _ \|   \| __| __| |  |_ _\ \/ / _ )/ _ \_   _/ __|
+        | (_| (_) | |) | _|| _|| |__ | | >  <| _ \ (_) || | \__ \
+         \___\___/|___/|___|_| |____|___/_/\_\___/\___/ |_| |___/
+                                                                
+[17-Sep-24 21:21:45 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Ikra\PycharmProjects\venv\lib\site-packages\pyrogram\dispatcher.py", line 242, in handler_worker
+    await self.loop.run_in_executor(
+  File "C:\Program Files\Python310\lib\concurrent\futures\thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Ikra\PycharmProjects\venv\lib\site-packages\pyrogram\sync.py", line 78, in async_to_sync_wrap
+    return asyncio.run_coroutine_threadsafe(coroutine, main_loop).result()
+  File "C:\Program Files\Python310\lib\concurrent\futures\_base.py", line 445, in result
+    return self.__get_result()
+  File "C:\Program Files\Python310\lib\concurrent\futures\_base.py", line 390, in __get_result
+    raise self._exception
+  File "C:\Users\Ikra\PycharmProjects\venv\lib\site-packages\pyromod\listen\message_handler.py", line 98, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "C:\Users\Ikra\PycharmProjects\file-sharing-token-bot-main\plugins\channel_post.py", line 32, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Ikra\PycharmProjects\venv\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2939, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Ikra\PycharmProjects\venv\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 63, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Ikra\PycharmProjects\venv\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 79, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Ikra\PycharmProjects\venv\lib\site-packages\pyrogram\session\session.py", line 389, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Ikra\PycharmProjects\venv\lib\site-packages\pyrogram\session\session.py", line 357, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Ikra\PycharmProjects\venv\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[17-Sep-24 21:24:19 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[17-Sep-24 21:26:50 - INFO] - bot - Bot Running..!
+
+Created by 
+https://t.me/ultroid_official
+[17-Sep-24 21:26:50 - INFO] - bot - 
+
+
+          ___ ___  ___  ___ ___ _    _____  _____  ___ _____ ___ 
+         / __/ _ \|   \| __| __| |  |_ _\ \/ / _ )/ _ \_   _/ __|
+        | (_| (_) | |) | _|| _|| |__ | | >  <| _ \ (_) || | \__ \
+         \___\___/|___/|___|_| |____|___/_/\_\___/\___/ |_| |___/
+                                                                
+[17-Sep-24 21:27:46 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Ikra\PycharmProjects\venv\lib\site-packages\pyrogram\dispatcher.py", line 242, in handler_worker
+    await self.loop.run_in_executor(
+  File "C:\Program Files\Python310\lib\concurrent\futures\thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Ikra\PycharmProjects\venv\lib\site-packages\pyrogram\sync.py", line 78, in async_to_sync_wrap
+    return asyncio.run_coroutine_threadsafe(coroutine, main_loop).result()
+  File "C:\Program Files\Python310\lib\concurrent\futures\_base.py", line 445, in result
+    return self.__get_result()
+  File "C:\Program Files\Python310\lib\concurrent\futures\_base.py", line 390, in __get_result
+    raise self._exception
+  File "C:\Users\Ikra\PycharmProjects\venv\lib\site-packages\pyromod\listen\message_handler.py", line 98, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "C:\Users\Ikra\PycharmProjects\file-sharing-token-bot-main\plugins\channel_post.py", line 32, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Ikra\PycharmProjects\venv\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2939, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Ikra\PycharmProjects\venv\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 63, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Ikra\PycharmProjects\venv\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 79, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Ikra\PycharmProjects\venv\lib\site-packages\pyrogram\session\session.py", line 389, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Ikra\PycharmProjects\venv\lib\site-packages\pyrogram\session\session.py", line 357, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Ikra\PycharmProjects\venv\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[17-Sep-24 21:57:48 - INFO] - bot - Bot Running..!
+
+Created by 
+https://t.me/ultroid_official
+[17-Sep-24 21:57:48 - INFO] - bot - 
+
+
+          ___ ___  ___  ___ ___ _    _____  _____  ___ _____ ___ 
+         / __/ _ \|   \| __| __| |  |_ _\ \/ / _ )/ _ \_   _/ __|
+        | (_| (_) | |) | _|| _|| |__ | | >  <| _ \ (_) || | \__ \
+         \___\___/|___/|___|_| |____|___/_/\_\___/\___/ |_| |___/
+                                                                
+[17-Sep-24 22:06:47 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[17-Sep-24 22:06:47 - INFO] - bot - Bot stopped.
+[17-Sep-24 22:07:15 - INFO] - bot - Bot Running..!
+
+Created by 
+https://t.me/ultroid_official
+[17-Sep-24 22:07:15 - INFO] - bot - 
+
+
+          ___ ___  ___  ___ ___ _    _____  _____  ___ _____ ___ 
+         / __/ _ \|   \| __| __| |  |_ _\ \/ / _ )/ _ \_   _/ __|
+        | (_| (_) | |) | _|| _|| |__ | | >  <| _ \ (_) || | \__ \
+         \___\___/|___/|___|_| |____|___/_/\_\___/\___/ |_| |___/
+                                                                
+[17-Sep-24 22:08:32 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[17-Sep-24 22:08:32 - INFO] - bot - Bot stopped.
+[17-Sep-24 22:28:28 - INFO] - bot - Bot Running..!
+
+Created by 
+https://t.me/ultroid_official
+[17-Sep-24 22:28:28 - INFO] - bot - 
+
+
+         ____        _                   
+        / ___|  __ _| |_ _   _ _ __ ___  
+        \___ \ / _` | __| | | | '__/ _ \ 
+         ___) | (_| | |_| |_| | | | (_) |
+        |____/ \__,_|\__|\__,_|_|  \___/ 
+                                        
+[17-Sep-24 22:29:00 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[17-Sep-24 22:29:00 - INFO] - bot - Bot stopped.
