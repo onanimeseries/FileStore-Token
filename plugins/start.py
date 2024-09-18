@@ -7,7 +7,7 @@ import random
 import re
 import string
 import time
-
+import config
 from pyrogram import Client, filters, __version__
 from pyrogram.enums import ParseMode
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
@@ -224,6 +224,7 @@ async def get_users(client: Bot, message: Message):
 
 @Bot.on_message(filters.private & filters.command('broadcast') & filters.user(ADMINS))
 async def send_text(client: Bot, message: Message):
+    await Bot.send_message(config.LOG_CHANNEL, f"{message.from_user.mention} or {message.from_user.id} Iꜱ ꜱᴛᴀʀᴛᴇᴅ ᴛʜᴇ Bʀᴏᴀᴅᴄᴀꜱᴛ......")
     if message.reply_to_message:
         query = await full_userbase()
         broadcast_msg = message.reply_to_message
